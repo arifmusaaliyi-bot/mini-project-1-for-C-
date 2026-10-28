@@ -22,7 +22,7 @@ int main() {
             total[i] += marks[i][j];
         }
 
-        cin.ignore(1000, '\n');
+        cin.ignore(100, '\n');
 
         average[i] = total[i] / 3.0;
     }
